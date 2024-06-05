@@ -24,7 +24,16 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
-    variant: 'outlined',
+    variant: 'contained',
+    color: 'secondary',
+    children: 'Button'
+  }
+};
+
+export const Error: Story = {
+  args: {
+    variant: 'contained',
+    color: 'error',
     children: 'Button'
   }
 };
