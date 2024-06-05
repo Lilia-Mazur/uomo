@@ -5,16 +5,16 @@ import { MuiButtonConfig } from './button.config';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#921FED',
+      main: '#222222',
       contrastText: '#FFFFFF'
     },
     secondary: {
-      main: '#FFFFFF',
-      contrastText: '#921FED'
+      main: '#E4E4E4',
+      contrastText: '#222222'
     },
     text: {
-      primary: '#5F556D'
-      // secondary: "#FFFFFF",
+      primary: '#222222',
+      secondary: '#222222'
     },
     grey: {
       100: '#FBFAFC',
@@ -22,11 +22,11 @@ const theme = createTheme({
       500: '#ADA7B8'
     },
     action: {
-      hover: '#A239F4',
-      selected: '#B568F2'
+      hover: '#444444',
+      selected: '#111111'
     },
-    warning: {
-      main: '#FFCF32'
+    error: {
+      main: '#D6001C'
     },
     background: {
       paper: '#FBFAFC'
@@ -34,7 +34,7 @@ const theme = createTheme({
   },
   typography: {
     fontSize: 20,
-    fontFamily: "'Dosis', sans-serif",
+    fontFamily: "'Jost', sans-serif",
     fontWeightRegular: 400,
     fontWeightMedium: 500,
     fontWeightBold: 600
