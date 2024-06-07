@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 import { MuiButtonConfig } from './button.config';
-
+import { MuiTextFieldConfig } from './textField.confirm';
 // A custom theme for this app
 const theme = createTheme({
   palette: {
@@ -41,6 +41,7 @@ const theme = createTheme({
   },
   components: {
     MuiButton: MuiButtonConfig,
+    MuiTextField: MuiTextFieldConfig,
     MuiTab: {
       defaultProps: {
         disableRipple: true
